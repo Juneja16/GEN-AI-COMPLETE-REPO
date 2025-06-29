@@ -1,5 +1,5 @@
 {
-  "name": "2_building-a-chatbot-topic-2",
+  "name": "3_building_an_ai_agent",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,8 +11,9 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@google/genai": "^1.6.0",
-    "dotenv": "^16.5.0",
+    "@google/genai": "^1.7.0",
+    "dotenv": "^17.0.0",
+    "node-fetch": "^3.3.2",
     "readline-sync": "^1.4.10"
   }
 }

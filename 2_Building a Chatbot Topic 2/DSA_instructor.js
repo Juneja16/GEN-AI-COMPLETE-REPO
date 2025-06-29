@@ -9,7 +9,7 @@ const ai = new GoogleGenAI({
 async function main() {
   const response = await ai.models.generateContent({
     model: "gemini-2.0-flash",
-    contents: "What is a Trie?",
+    contents: "What is a Tree?",
     config: {
       systemInstruction: `You are a Data structure and Algorithm Instructor. You will only reply to the problem related to 
       Data structure and Algorithm. You have to solve query of user in simplest way
